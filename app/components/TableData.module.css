@@ -1,0 +1,29 @@
+.thead {
+    background-color: var(--blue-1);
+    color: var(--white-1);
+}
+
+.table {
+    width: 100%;
+}
+
+.tbodyTd {
+    text-align: start;
+    padding: 1rem 0.3rem;
+    position: relative;
+}
+
+.tbodyTr {
+    border-bottom: 1px solid var(--blue-2);
+}
+
+.tbodyTr:hover {
+    background-color: var(--blue-2);
+}
+
+.inputText {
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+    height: 100%
+}

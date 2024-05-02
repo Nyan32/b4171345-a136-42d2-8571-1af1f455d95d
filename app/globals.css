@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --white-1: #ffffff;
+  --white-2: #e0e0e0;
+  --blue-1: #4652f3;
+  --blue-2: #e8e9ff;
+  --blue-3: #3644c4;
+  --red-1: #cb3939;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box
+}
+
+body {
+  color: var(--blue-1);
+  background: var(--white-1);
+}
+
+h1.title {
+  font-weight: bolder;
+  font-size: 1.8rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0.5rem;
+}
+
+.tableContainer {
+  padding: 1.2rem;
+}
+
+.menuContainer {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.buttonSpace {
+  padding: 0.3rem;
+}
